@@ -1,0 +1,2 @@
+Total_Samples,TP,FP,TN,FN,Accuracy (%),Precision (%),Recall (%),F1-Score (%),Total_Time (s),Avg_Latency (ms)
+10000,4364,0,5000,636,93.64,100.0,87.28,93.21,0.231,0.0231

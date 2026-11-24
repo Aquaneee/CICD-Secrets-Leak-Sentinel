@@ -1,0 +1,16 @@
+# 1. Base64 Encoded AWS Access Key (Giai ma: AKIAIOSFODNN7EXAMPLE)
+AWS_KEY_B64 = "QUtJQUlPU0ZPRE5ON0VYQU1QTEU="
+
+# 2. Base64 Encoded GitHub Token (Giai ma: ghp_1234567890abcdefghijklmnopqrstuvwxyz)
+GH_TOKEN_B64 = "Z2hwXzEyMzQ1Njc4OTBhYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5eg=="
+
+# 3. Unicode Escape Obfuscation (Giai ma: AKIAI44QH8DHBEXAMPLE)
+const aws_unicode = "\u0041\u004b\u0049\u0041\u0049\u0034\u0034\u0051\u0048\u0038\u0044\u0048\u0042\u0045\u0058\u0041\u004d\u0050\u004c\u0045";
+
+# 4. Hex Encoded Secret (Giai ma: ghp_9876543210abcdefghijklmnopqrstuvwxyz)
+const gh_hex = "\x67\x68\x70\x5f\x39\x38\x37\x36\x35\x34\x33\x32\x31\x30\x61\x62\x63\x64\x65\x66\x67\x68\x69\x6a\x6b\x6c\x6d\x6e\x6f\x70\x71\x72\x73\x74\x75\x76\x77\x78\x79\x7a";
+
+# 5. Dynamic String Concatenation (Ky thuat noi chuoi dong de kiem tra gioi han cua Scanner)
+const part1 = "AKIA";
+const part2 = "9999888877776666";
+const full_aws = part1 + part2;
